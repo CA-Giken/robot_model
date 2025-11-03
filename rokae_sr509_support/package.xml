@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>rokae_sr509_support</name>
+  <version>0.1.0</version>
+  <description>
+    <p>CA-Giken support for the Rokae SR5/0.9</p>
+  </description>
+  <author>CA-Giken</author>
+  <maintainer email="info@ca-giken.com">CA-Giken</maintainer>
+  <license>BSD</license>
+
+  <url type="bugtracker">https://github.com/CA-Giken/robot_model/issues</url>
+  <url type="repository">https://github.com/CA-Giken/robot_model</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <test_depend>roslaunch</test_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <architecture_independent/>
+  </export>
+</package>

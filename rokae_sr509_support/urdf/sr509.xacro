@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<robot name="rokae_sr509" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find rokae_sr509_support)/urdf/sr509_macro.xacro" />
+  <xacro:rokae_sr509 prefix=""/>
+</robot>
